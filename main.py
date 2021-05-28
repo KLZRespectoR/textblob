@@ -52,12 +52,13 @@ from textblob import TextBlob
 
 analysis= TextBlob(text)
 #print(dir(analysis))
-print(analysis.word_counts['the'])
+print("Frequency: word of intreset: america:", analysis.word_counts['america'])
 #print(analysis.tags)
 noun_phrases= analysis.noun_phrases
-print(analysis.noun_phrases)
-print(len(noun_phrases))
+#print(analysis.noun_phrases)
+print("the number of noun phrases used:", len(noun_phrases))
 
 print("Blobtext_sentimentintensityanalyzer:", analysis.sentiment)
 
 
+print("Laith Alhmeidi: Bachelor Thesis")
