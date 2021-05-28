@@ -1,7 +1,7 @@
-print("President’s Name: Abraham Lincoln")
-print("Date of speech: 4 March 1861")
-print("Title of the speech: First Inaugural Address Speech")
-print("Source: https://millercenter.org/the-presidency/presidential-speeches/march-4-1861-first-inaugural-address")
+print("President’s Name: Joe Biden")
+print("Date of speech: 20 January 2021")
+print("Title of the speech: Inaugural Address Speech")
+print("Source: https://millercenter.org/the-presidency/presidential-speeches/january-20-2021-inaugural-address")
 import nltk as nltk
 text= open('text.txt', encoding='utf-8').read()
 print("the length of the speech:", len(text))
